@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Burger Hut</title>
+    <link rel="icon" href="logo.jpg" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <img src="" alt="" />
+          <a href="#">Burger Hut</a>
+        </div>
+        <nav class="nav">
+          <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="/#menu">Menu</a></li>
+            <li><a href="location.html">Locations</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <a href="/#menu" class="cta-btn">Order Now</a>
+      </div>
+    </header>
+    <section class="contact" id="contact">
+      <div class="contact-container">
+        <div class="contact-info">
+          <h2>Contact Us</h2>
+          <p>
+            We’d love to hear from you! Whether you have a question, feedback,
+            or just want to say hello, get in touch with us.
+          </p>
+          <ul>
+            <li><strong>Phone:</strong> +1 (123) 456-7890</li>
+            <li><strong>Email:</strong> info@burgerhut.com</li>
+            <li>
+              <strong>Address:</strong> 123 Burger Street, Flavor Town, USA
+            </li>
+          </ul>
+        </div>
+        <div class="contact-form">
+          <form action="#" method="POST">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your Name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Your Message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="cta-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
